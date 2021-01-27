@@ -1,12 +1,14 @@
-# Singularity R
+# Lab.js sqlite unpacking Singularity R image nonsense
 
 Singularity image definition for [R], forked from https://github.com/nickjer/singularity-r
 
 This is still a work in progress.
 
+See `run_script.sh` for how it launches things.
+
 ## Build
 
-You can build a local Singularity image named `singularity-r.simg` with:
+You can build a local Singularity image named `r.sif`, but this requires root:
 
 ```sh
 sudo singularity build r.sif r.def
@@ -19,7 +21,7 @@ sudo singularity build --sandbox rimage/ r.def
 ```
 
 On the brain imaging environment, where you don't have root access, you can 
-build in the cloud by doing the following:
+build an image file in the cloud by doing the following:
 
   1. Log in to https://cloud.sylabs.io/auth/tokens and create a token
   2. Copy that token to your clipboard (and save a copy locally just in case)
