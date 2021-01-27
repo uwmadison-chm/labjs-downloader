@@ -6,6 +6,8 @@ This is still a work in progress.
 
 See `run_script.sh` for how it launches things.
 
+It would be nice if this was quiet and did no STDOUT/STDERR unless there was a problem.
+
 ## Build
 
 You can build a local Singularity image named `r.sif`, but this requires root:
