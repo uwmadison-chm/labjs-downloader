@@ -16,7 +16,7 @@ You can build a local Singularity image named `r.sif`, but this requires root:
 sudo singularity build r.sif r.def
 ```
 
-Or, in a sandbox dir:
+Or, in a sandbox dir, still requires root:
 
 ```sh
 sudo singularity build --sandbox rimage/ r.def
