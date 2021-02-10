@@ -61,7 +61,7 @@ Example:
 
 ```console
 $ singularity run --app Rscript r.sif --version
-R scripting front-end version 3.4.3 (2017-11-30)
+R scripting front-end version 3.6.3 (2020-02-29)
 ```
 
 ## License
