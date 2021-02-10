@@ -1,4 +1,4 @@
-# Lab.js sqlite unpacking Singularity R image nonsense
+# Lab.js sqlite unpacking Singularity R image example
 
 Singularity image definition for [R], forked from https://github.com/nickjer/singularity-r
 
