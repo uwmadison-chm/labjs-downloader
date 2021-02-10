@@ -2,11 +2,14 @@
 
 Singularity image definition for [R], forked from https://github.com/nickjer/singularity-r
 
-This is still a work in progress.
-
-See `run_script.sh` for how it launches things.
-
 It would be nice if this was quiet and did no STDOUT/STDERR unless there was a problem.
+
+## About
+
+`r.def` is a Singularity definition to build an image.
+
+See `run_script.sh` for how to launch an example `RScript` process, in this 
+case, the `sqlite_to_csv.R` from the labjs distribution.
 
 ## Build
 
