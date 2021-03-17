@@ -151,8 +151,8 @@ d.output <- d.full %>%
 
 d.output %>%
   group_by(observation) %>%
-  fill(matches('code'), .direction='down') %>%
-  fill(matches('code'), .direction='up') %>%
+  fill(matches('ppt'), .direction='down') %>%
+  fill(matches('session'), .direction='down') %>%
   ungroup() -> d.output
 
 # Remove sensitive data?
